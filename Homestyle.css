@@ -1,0 +1,231 @@
+
+body {
+	margin: 0;
+	padding: 0 0 20px 0;
+	color: #b9becd;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.4em; 
+	background-color: #1a1d25; 
+	background-image: url(./images/Back1.jpg);
+	background-repeat: repeat
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#fff;
+	font-weight: 400;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+h1 { font-size:34px; margin-bottom: 25px; line-height: 38px  }
+h2 { font-size:26px; margin-bottom: 25px; line-height: 28px; }
+h3 { font-size:20px; line-height: 24px }
+h4 { font-size:18px }
+h5 { font-size:16px }
+h6 { font-size:12px }
+
+.left { float:left }
+.right { float:right }
+.clear { clear: both }
+
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h60 { height: 60px }
+
+img { margin: 0; padding: 0; border: 0 }
+
+.img_border { border: 2px solid #363637; background: #000; padding: 6px }
+.img_border_s { padding: 3px }
+.img_border_b { padding: 6px }
+
+.img_nom { display: block; margin-bottom: 15px }
+.img_fl { float: left; display: block; margin: 1px 20px 8px 0 }
+.img_fr { float: right; margin: 1px 0 8px 20px }
+
+p { margin: 0 0 15px 0; padding: 0 }
+em { color: #fff }
+
+
+#body_wrapper {
+	width: 100%;
+	background: url(images/bgwrapper.png) top center no-repeat
+}
+#wrapper {
+	width: 968px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#header {
+	padding: 20px 34px 0;
+	height: 120px;
+}
+
+.navbar {
+  padding: 6px 14px 6px 34px;
+	height: 46px;
+	margin-bottom: 44px;
+	background:  url(images/menu_bar.png) no-repeat
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#4B0082;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #DDA0DD;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#middle {
+	padding: 0 34px;
+	margin-bottom: 40px;
+	background:url(images/middle.png) no-repeat
+}
+#main {
+	padding: 0 34px 30px;
+}
+
+#footer {
+	padding: 30px 34px;
+	height: 40px;
+	background: url(images/footer.png) no-repeat 
+}
+
+.col { float: left; margin: 0 30px 30px 0 }
+
+.col_2 { width: 435px }
+.col_3 { width: 280px }
+.col_32 { width: 590px }
+
+.col_4 { width: 202px }
+.col_43 { width: 607px }
+.col_5 { width: 156px }
+
+
+#site_title { float: left; width: 400px;  }
+
+#site_title a { 
+	display: block; 
+	width: 240px; 
+	height: 110px; 
+	margin: 0 auto; 
+	background: url(/images/logo.png) no-repeat; 
+	text-indent: -10000px 
+}
+
+#header .col_4 { margin-top: 40px }
+#header .col_4 a { display: block; float: right; margin-left: 5px }
+
+
+#menu ul { float: left; width: 640px; margin: 0; padding: 0; list-style: none }
+#menu ul li { margin: 0; padding: 0; display: inline }
+#menu ul li a {
+	display: block;
+	float: left;
+	line-height: 41px;
+	padding: 0 30px;
+	margin-right: 1px;
+	font-size: 14px;
+}
+
+#menu ul li a:hover, #menu ul li a.selected {
+	color: #d10f9a;
+	background: #0e0e0e
+}
+
+
+.event {
+	position: relative;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 310px;
+	width: 240px;
+	padding: 20px;
+}
+.event1 { background-image: url(images/bday.png) }
+.event2 { background-image: url(images/wedding.png) }
+.event3 { background-image: url(images/get.png) }
+
+a.event_btn {
+	display: block;
+	position: absolute;
+	bottom: 5px; left: 6px;
+	width: 267px;
+	height: 68px;
+	text-indent: -10000px;
+}
+
+.event1 a.event_btn { background-image: url(images/bparty.png) }
+.event2 a.event_btn { background-image: url(images/wedparty.png) }
+.event3 a.event_btn { background-image: url(images/getparty.png) }
+
+
+
+#footer { line-height: 18px }
+#footer .left { color: #999999 }
+#footer .left a { color: #CC99FF }
+
+#footer .right { text-align: right; color: #999999 }
+#footer .right a { text-align: right; color: #CC99FF; }
+
+.no_mr { margin-right: 0 }
+
+
+.logout{
+float:right;
+margin-left:1500px;
+}
+
+
+
+
+
+
