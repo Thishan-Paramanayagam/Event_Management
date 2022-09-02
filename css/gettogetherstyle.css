@@ -1,0 +1,70 @@
+
+.top_picture
+{
+	width:1460px;
+	height:500px;
+	border: 12px ;
+	border-color:Purple;
+	border-style:solid;
+}
+.top
+{
+	display:block;
+	border:20px;
+	border-style:double;
+	border-color:black;	
+}
+.logo_1
+{
+	width:100px;
+	height:100px;
+}
+.logo_2
+{
+	width:100px;
+	height:100px;
+	float:right;	
+}
+.logo_3
+{
+	width:400px;
+	height:100px;
+}
+.tables table , th, td {
+  border:5px;
+  border-color:purple;
+  border-style:solid;
+  font-family:'arial';
+  font-weight:bold;
+  color:white;
+}
+.tables h1
+{
+     text-align:center;
+     font-family:'Algerian';
+	 color:orange;
+}	
+
+.extra h1
+{
+	color:Black;
+	display:block;
+	background-color:red;	
+}
+.extra li ,h2
+{
+	color:black;
+	font-weight:bold;
+	color:BLack;	
+}
+.samplepictures
+{
+	width:470px;
+	height:250px;
+	border:10px;
+	border-color:white;
+	border-style:solid;
+}	
+
+
+

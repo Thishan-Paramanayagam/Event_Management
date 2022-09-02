@@ -1,0 +1,68 @@
+body{
+	margin :0;
+	padding :0;
+	background: url(../images/Back3.jpg);
+	background-size : cover;
+	background-repeat : no-repeat;
+	font-family:  serif;
+}
+
+
+.header{
+	width : 372px;
+	top: 10%;
+    left: 30%;
+	position : absolute;
+    transform: translate(-65%, -60%);
+	margin : 30pxauto 0px;
+	color: white;
+	background : #4d0066;
+    border : 1px;
+	border-bottom : none;
+	border-radius : 10px;
+	padding : 160px;
+	text-align : center;
+}
+form{
+	position : absolute;
+    width: 400px;
+    height: 500px;
+	margin: 0px auto;
+	border :5px;
+	top: 50%;
+    left: 30%;
+    transform: translate(-80%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+	background : #0055;
+	color : #fff;
+	border-radius : 10px 15px 15px 10px;
+}
+.input{
+	margin: 10px;
+}
+
+.input label{
+	display :block;
+	text-align: left;
+	margin: 3px;
+}
+
+.input input[type="text"], input[type="password1"] ,input[type="password2"]{
+	height:30px;
+	width: 95%;
+	padding : 5px 10px;
+	font-size:16px;
+	border-radius: 5px;
+	border:2px solid gray;
+}
+
+.btn
+{
+	padding: 10px;
+	font-size: 15px;
+	color: #4d0066;
+	border : none;
+	border-radius: 5px;
+	
+}
